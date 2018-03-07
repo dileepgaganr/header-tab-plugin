@@ -1,0 +1,7 @@
+<div class="tabs">
+  <ul class="tab-links">
+    <li *ngFor="let config of tabConfiguration" (click)="select(config)" class="config.Style" [ngClass]="{active: isActive(config)}">
+      <a [routerLink]="[config.Url]" style="text-decoration:none">{{config.Name}}</a>
+    </li>
+  </ul>
+</div>
