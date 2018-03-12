@@ -2,6 +2,11 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0.
 
+This is a simple plugin where u can have as many as tabs with route.
+Please refer app component for usage.
+Kindly add your inputs on how it can be improved. 
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
